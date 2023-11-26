@@ -10,13 +10,13 @@ import "./styles/App.css";
 
 function App() {
   const [posts, setPosts] = useState([
-    { id: 1, title: "aa", body: "Desc" },
-    { id: 2, title: "rr", body: "Desc" },
-    { id: 3, title: "bb", body: "Desc" },
+    { id: 1, title: "aa", body: "Desc1" },
+    { id: 2, title: "rr", body: "Desc1" },
+    { id: 3, title: "bb", body: "Desc3" },
   ]);
 
   const [selectedSort, setSelectedSort] = useState("");
-
+  const [searchQueary, SetSearchQueary] = useState("");
   const createPost = (newPost) => {
     setPosts([...posts, newPost]);
   };
@@ -36,6 +36,11 @@ function App() {
       <PostForm create={createPost} />
       <hr style={{ margin: "15px 0px" }} />
       <div>
+        <MyInput
+          value={searchQueary}
+          placeholder={"Поиск"}
+          onChange={(e) => SetSearchQueary(e.target.value)}
+        />
         <MySelect
           value={selectedSort}
           onChange={sortPosts}
