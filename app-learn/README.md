@@ -1,2 +1,2 @@
-https://www.youtube.com/watch?v=GNrdg3PzpJQ&t=4338s
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/temaweb10/react-learn/assets/94466508/4a32196a-eaf0-444d-916c-a1c3fe299b63)https://www.youtube.com/watch?v=GNrdg3PzpJQ&t=4338s
+![alt text](https://camo.githubusercontent.com/79bea26d62982177907ac18a2b7260e01be1a07df90463d5f45435997a234600/68747470733a2f2f63646e2e7261776769742e636f6d2f646976657273656e2f656c656374726f6e2d6d61726b646f776e2d656469746f722f6d61737465722f7265736f75726365732f656c656374726f6e2d6d61726b646f776e2e706e67)
